@@ -1,0 +1,28 @@
+.masterContainer {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+}
+.masterContainer a {
+  text-decoration: none;
+  color: #000;
+}
+.masterContainer a:hover, .masterContainer a:visited {
+  color: #000;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}/*# sourceMappingURL=app.module.css.map */

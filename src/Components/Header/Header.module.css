@@ -1,0 +1,128 @@
+.headerContainer {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #fff;
+  padding: 16px;
+}
+.headerContainer img {
+  width: 2rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer {
+  width: 28rem;
+  height: 30rem;
+  position: absolute;
+  top: 4rem;
+  left: 0px;
+  background-color: #fff;
+  z-index: 10;
+  padding: 8px;
+  border-radius: 8px;
+  overflow-y: auto;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .allProductsCount {
+  width: 100%;
+  text-align: right;
+  direction: rtl;
+  color: #717171;
+  font-size: 0.8rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-top: 1px solid #b0b0b0;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem:first-of-type {
+  border-top: none !important;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem img {
+  width: 3rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem .productDetail {
+  width: calc(100% - 3.5rem);
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 8px 0px;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem .productDetail .nameContainer {
+  font-size: 0.8rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem .productDetail .productCountContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f7f7f7;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 0px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem .productDetail .productCountContainer input {
+  width: 30px;
+  padding: 0px 8px;
+  text-align: center;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItem .productDetail .priceContainer {
+  font-size: 0.8rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItemDetail {
+  width: 100%;
+  background: #b0b0b0;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsContainer .cartItemDetail p {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+  color: #222222;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsCount {
+  position: relative;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsCount svg {
+  font-size: 1.5rem;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .cartItemsCount > span {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  z-index: 6;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.headerContainer .categoriesItemsAndCartItemsLogo .categoriesContainer a:first-child {
+  margin: 0px !important;
+}/*# sourceMappingURL=Header.module.css.map */
